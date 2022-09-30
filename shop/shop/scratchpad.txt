@@ -1,0 +1,44 @@
+Store the details in memory
+
+Item 
+ - Id (unique)
+ - Name
+ - Total quantity
+ - Unit price
+   - getter & setters
+
+CartItem 
+ - Id (unique)
+ - Name
+ - Total quantity
+ - Total price
+   - getter & setters
+
+Item manager
+ - addStock() - New Item
+ - generateId()
+ - searchByName() - to identify the item
+ - searchById() 
+ - increment() - Exiting item
+   - Identify the item in Stock
+   - Increment the quantity
+ - decrement() - Existing item
+   - Identify the item Stock
+   - Decrement the quantity
+ - printAll()
+ 
+CartManager
+ - addItem()
+ - searchByName()
+ - increment() - Exiting item
+   - Identify the item in cart
+   - Increment the quantity
+ - decrement() - Existing item
+   - Identify the item cart
+   - Decrement the quantity
+ - getTotal() 
+
+ Shop
+  - Will display the menu and ask Choice from user
+  - Depends on choice it will call the appropricate function
+
